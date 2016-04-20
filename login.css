@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("images/login_bac.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#loginPan {
+    background-color: white;
+}
+
+#loginLogo {
+    background-color: white;
+    text-align: center;
+}
+
+#username {
+    background: url("images/user.png") no-repeat 5px center;
+    margin-bottom: 8px;
+
+}
+
+#password {
+    background: url("images/password.png") no-repeat 5px center;
+    margin-bottom: 8px;
+    margin-top: 75px;
+
+}
+
+.text_field {
+    border: 0;
+    border-bottom: 2px solid #eaeaea;
+    text-indent: 50px;
+}
+
+#loginForget a {
+    font-size: 12px;
+    color: #969696;
+    text-decoration: none;
+    margin-right: 28px;
+    float: right;
+}
+
+#loginForget a:hover {;
+    color: #26c1ff;
+    text-decoration: underline;
+}
+
+#loginForm {
+    text-align: center;
+}
+
+#loginBtn {
+    text-align: center;
+}
+
+#loginBtn button {
+    font-size: 24px;
+    color: white;
+    background: url("images/btn_login_bac.png");
+
+    width: 330px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 70px;
+
+    border: 0;
+}
+
+#loginBtn button:hover {
+    color: red;
+}
+
+#registerPan {
+    background: url("images/register_bac.png") no-repeat;
+}
+
+#registerBtn button{
+    font-size: 14px;
+    color: white;
+    background: url("images/register_btn_bac.png") no-repeat;
+
+    width: 190px;
+    line-height: 36px;
+    text-align: center;
+
+    border: 0;
+}
+
+#registerBtn button:hover {
+    color: black;
+    font-weight: lighter;
+    background: url("images/register_btn_bac_hover.png") no-repeat;
+}
+
+#registerTitleLabel {
+    font-size: 40px;
+    color: white;
+}
+
+#registerContentLabel {
+    font-size: 12px;
+    color: white;
+
+    line-height: 20px;
+    width: 294px;
+}
